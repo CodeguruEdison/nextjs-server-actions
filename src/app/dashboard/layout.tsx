@@ -2,14 +2,15 @@ import React from 'react'
 import { IDashboardPageLayoutProps } from './dashboard-type'
 import { Sidebar } from '../ui/dashaboard/sidebar/sidebar'
 import { Navbar } from '../ui/dashaboard/navbar/navbar'
+import styles from '../ui/dashaboard/dashboard.module.css'
 
 export const DashBoardPageLayout = ({ children }: IDashboardPageLayoutProps) => {
     return (
-        <div>
-            <div>
+        <div className={styles.container}>
+            <div className={styles.menu}>
                 <Sidebar />
             </div>
-            <div>
+            <div className={styles.content}>
                 <Navbar />
                 {children}
             </div>
