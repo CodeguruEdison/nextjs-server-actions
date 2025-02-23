@@ -38,21 +38,41 @@ export const menus: IMenu[] = [
                 icon: "MdAttachMoney",
                 path: "/dashboard/transactions"
             },
-            {
-                title: "Analytics",
-                icon: "MdWork",
-                path: "/dashboard/revenue"
-            },
-            {
-                title: "Reports",
-                icon: "MdAnalytics",
-                path: "/dashboard/reports"
-            },
-            {
-                title: "Teams",
-                icon: "MdPeople",
-                path: "/dashboard/teams"
-            }
+
         ]
-    }
+    },
+    {
+        title: "Analytics",
+        list: [{
+            title: "Analytics",
+            icon: "MdWork",
+            path: "/dashboard/revenue"
+        },
+        {
+            title: "Reports",
+            icon: "MdAnalytics",
+            path: "/dashboard/reports"
+        },
+        {
+            title: "Teams",
+            icon: "MdPeople",
+            path: "/dashboard/teams"
+        }
+        ]
+    },
+    {
+        title: "User",
+        list: [
+            {
+                title: "Settings",
+                path: "/dashboard/settings",
+                icon: "MdOutlineSettings",
+            },
+            {
+                title: "Help",
+                path: "/dashboard/help",
+                icon: "MdHelpCenter",
+            },
+        ],
+    },
 ]
