@@ -7,6 +7,9 @@
   --bgSoft: #182237;
   --text:white;
   --text-Soft:#b7bac1;
+  --pending:#f7cb7375;
+  --done:#afd6ee75;
+  --cancelled:#f7737375;
 }
 
 
