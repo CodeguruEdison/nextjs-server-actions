@@ -1,7 +1,7 @@
 import { Card } from "../ui/dashaboard/card/card";
 import { IDashboardPageProps } from "./dashboard-type";
 import styles from '../ui/dashaboard/dashboard.module.css'
-import { RightBar } from "../ui/dashaboard/rightbar/rightbar";
+import Rightbar from "../ui/dashaboard/rightbar/rightbar";
 import { Chart } from "../ui/dashaboard/chart/chart";
 import { Transactions } from "../ui/dashaboard/transactions/transactions";
 
@@ -20,7 +20,7 @@ export default function DashboardPage(props: IDashboardPageProps) {
             </div>
 
             <div className={styles.side}>
-                <RightBar />
+                <Rightbar />
             </div>
 
         </div>
